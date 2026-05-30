@@ -55,3 +55,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'aws-sdk-dynamodb'
+gem 'dotenv'
