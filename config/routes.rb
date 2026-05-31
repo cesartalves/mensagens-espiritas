@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   root 'home#index'
   post "/subscribe", to: "home#subscribe"
+  get "/success", to: "home#success"
 end
