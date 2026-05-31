@@ -15,7 +15,7 @@ Totalmente gratuito!
   </div>
 <% end %>
 
-<%= form_with url: "/subscribe", method: :post do |form| %>
+<%= form_with url: "/subscribe", method: :post, data: { turbo: false } do |form| %>
   <div>
     <%= form.label :ddi, "DDI" %>
     <%= form.text_field :ddi, value: "55", required: true %>
